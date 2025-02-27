@@ -12,6 +12,7 @@ import Blogs from "./Pages/Blogs";
 import Agents from "./Pages/Agents";
 import Seller from "./Pages/Seller";
 import RowHouses from "./Pages/RowHouses";
+import Buyer from "./Pages/Buyer";
 
 function App() {
   return (
@@ -22,10 +23,11 @@ function App() {
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/seller" element={<Seller />} />
       <Route path="/agents" element={<Agents />} />
+      <Route path="/buyer" element={<Buyer/>}/>
       <Route path="/contactus" element={<ContactUs />} />
       <Route path="/properties/flats" element={<Flats />} />
       <Route path="/properties/plots" element={<Plots />} />    
-        <Route path="/properties/rowhouses" element={<RowHouses />} />
+      <Route path="/properties/rowhouses" element={<RowHouses />} />
       <Route path="/properties/furnishedflats" element={<FurnishedFlats />} />
       <Route path="/properties/ourservices" element={<OurServices />} />
       <Route path="/properties/reviews" element={<Reviews />} />

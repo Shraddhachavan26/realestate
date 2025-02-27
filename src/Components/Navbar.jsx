@@ -21,6 +21,7 @@ const Navbar = () => {
           <li><Link to="/blogs" style={styles.navItem}>Blogs</Link></li>
           <li><Link to="/agents" style={styles.navItem}>Agents</Link></li>
           <li><Link to="/seller" style={styles.navItem}>Seller</Link></li>
+          <li><Link to="/buyer" style={styles.navItem}>Buy</Link></li>
 
           {/* Properties Dropdown */}
           <NavDropdown title="Properties" id="nav-dropdown" style={styles.navDropdown}>
